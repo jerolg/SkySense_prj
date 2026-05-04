@@ -1,2 +1,9 @@
-datasets/*
-!datasets/.gitkeep
+# Ignore heavy dataset
+data/images/
+data/labels/
+
+# Keep folder structure
+!data/.gitkeep
+
+# Keep config file
+!data/data.yaml
